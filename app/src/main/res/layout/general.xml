@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1D1D1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_9sdp"
+        android:padding="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:background="#D1D1D1"
+        android:layout_marginBottom="@dimen/_10sdp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_7sdp"
+        android:textSize="@dimen/_12ssp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:text="Ethnic Correction"
+        android:textColor="#324D9E"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:padding="@dimen/_5sdp"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="----- Graph And Grid Colour -----"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="#000"/>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:background="#D1D1D1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_7sdp"
+            android:textSize="@dimen/_12ssp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:text="Pre :"
+            android:textColor="#324D9E"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FD0303"
+            android:padding="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginRight="@dimen/_110sdp" />
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:background="#D1D1D1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_7sdp"
+            android:textSize="@dimen/_12ssp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:text="Post :"
+            android:textColor="#324D9E"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#043BA1"
+            android:padding="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_59sdp"
+            android:layout_marginRight="@dimen/_110sdp" />
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:background="#D1D1D1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_7sdp"
+            android:textSize="@dimen/_12ssp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:text="Grid Colour :"
+            android:textColor="#324D9E"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E6EE9C"
+            android:padding="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_22sdp"
+            android:layout_marginRight="@dimen/_110sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:background="#D1D1D1"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default Colour"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:background="#324D9E"
+            android:padding="@dimen/_10sdp"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:orientation="horizontal"
+            android:background="#D1D1D1"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#324D9E"
+                android:text="Ok"
+                android:textStyle="bold"
+                android:textColor="#fff"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

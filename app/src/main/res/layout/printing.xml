@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1D1D1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clininc Name"
+                android:textSize="@dimen/_12ssp"
+                android:padding="@dimen/_5sdp"
+                android:textColor="#324D9E"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:padding="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_50sdp"
+                android:inputType="text"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clininc Address"
+                android:textSize="@dimen/_12ssp"
+                android:padding="@dimen/_5sdp"
+                android:textColor="#324D9E"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:padding="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_39sdp"
+                android:inputType="text"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="----- Clinic Name Alingment -----"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/_10sdp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/_10sdp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Left"
+                android:textColor="#324D9E"
+                android:textSize="@dimen/_12ssp"
+                android:layout_marginLeft="@dimen/_40sdp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Right"
+                android:textColor="#324D9E"
+                android:textSize="@dimen/_12ssp"
+                android:layout_marginLeft="@dimen/_80sdp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="----- Logo Size -----"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/_10sdp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/_10sdp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Optimum Size"
+                android:textColor="#324D9E"
+                android:textSize="@dimen/_12ssp"
+                android:layout_marginLeft="@dimen/_40sdp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Original Size"
+                android:textColor="#324D9E"
+                android:textSize="@dimen/_12ssp"
+                android:layout_marginLeft="@dimen/_30sdp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/_20sdp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Logo"
+            android:background="#324D9E"
+            android:textColor="#fff"
+            android:padding="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:background="#fff"
+                android:layout_marginLeft="@dimen/_50sdp"
+                android:layout_marginRight="@dimen/_50sdp"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:background="#324D9E"
+            android:textColor="#fff"
+            android:padding="@dimen/_10sdp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+</ScrollView>
